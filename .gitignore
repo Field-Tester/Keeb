@@ -4,4 +4,5 @@ garbage/
 dist/
 
 # Single files
+package-lock.json
 .env
