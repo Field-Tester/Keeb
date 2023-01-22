@@ -1,3 +1,4 @@
 export interface Keys {
-  token: string
+  token: string;
+  testGuild: string;
 }

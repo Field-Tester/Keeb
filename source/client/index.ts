@@ -5,11 +5,11 @@ import ClientKeys from "../keys";
 
 const Resolver = new Client({
   intents: 32767
-})
+});
 
-registerEvents(Resolver, Events)
+registerEvents(Resolver, Events);
 
 Resolver.login(ClientKeys.token).catch((error) => {
-  console.error(`[e] Login error! > ${error}`)
-  process.exit(1)
-})
+  console.error(`[e] Login error! > ${error}`);
+  process.exit(1);
+});
