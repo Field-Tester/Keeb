@@ -1,2 +1,7 @@
+# Folders
 node_modules/
+garbage/
 dist/
+
+# Single files
+.env
